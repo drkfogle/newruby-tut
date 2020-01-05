@@ -16,11 +16,13 @@
  
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
- 
+
+//Typography styles 
 h1, h2, h3{
     font-family: 'Roboto Mono', monospace;
 }
 
+//Background gradient
 .navbar, .home-callout{
 background: #43C6AC;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
@@ -28,29 +30,21 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
 
 }
 
+//Nav Styles
 .navbar{
     border: none;
 }
 
-.navbar-default .navbar-brand{
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a{
     color: white;
+    &:hover {
+        color: white;
+        opacity: 0.75;
+    }
 }
 
-
-.navbar-default .navbar-nav > li > a {
-    color: white;
-}
-
-.navbar-default .navbar-brand:hover{
-    color: white;
-    opacity: 0.75;
-}
-
-.navbar-default .navbar-nav > li > a:hover{
-    color: white;
-    opacity: 0.75;
-} 
-
+//Home-page styles
 .home-callout{
     margin-top: -20px;
     padding-top: 50px;
