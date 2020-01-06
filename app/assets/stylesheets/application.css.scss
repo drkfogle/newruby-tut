@@ -42,6 +42,18 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
     font-weight: 800;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+    border: 2px solid white;
+    &:hover, &:focus{
+        background-color: #00c6ff;
+    }
+}
+
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a{
     color: white;
