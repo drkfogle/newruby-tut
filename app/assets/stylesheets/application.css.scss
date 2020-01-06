@@ -37,6 +37,11 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
     border: none;
 }
 
+.navbar-brand{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 800;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a{
     color: white;
