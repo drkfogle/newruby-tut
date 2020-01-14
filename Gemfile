@@ -44,7 +44,10 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
+#use for adding icons
 gem 'font-awesome-sass', '4.6.2'  
+
+gem 'hirb', '0.7.3'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
