@@ -52,6 +52,12 @@ gem 'hirb', '0.7.3'
 # Devise for user-authentication
 gem 'devise', '4.7.1'
 
+#Using stripe for payment processing
+gem 'stripe', '1.48.0'
+
+#figaro for ENV variables
+gem 'figaro', '1.1.1'
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '3.3.0'
