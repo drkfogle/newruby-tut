@@ -58,6 +58,9 @@ gem 'stripe', '1.48.0'
 #figaro for ENV variables
 gem 'figaro', '1.1.1'
 
+# use paperclip for images
+gem 'paperclip', '4.3.6'
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '3.3.0'
