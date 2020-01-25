@@ -44,5 +44,4 @@ class ProfilesController < ApplicationController
       redirect_to(root_url) unless @user == current_user
     
     end 
-  end
 end
